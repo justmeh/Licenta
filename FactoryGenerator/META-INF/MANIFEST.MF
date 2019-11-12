@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FactoryGenerator
+Bundle-SymbolicName: com.github.factorygen;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: FactoryGenerator
+Bundle-RequiredExecutionEnvironment: JavaSE-12
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime;bundle-version="3.15.300",
+ org.eclipse.core.resources;bundle-version="3.13.400",
+ org.eclipse.jface.text;bundle-version="3.15.200",
+ org.eclipse.ui.ide;bundle-version="3.15.200",
+ com.github.javaparser;bundle-version="1.0.0"
